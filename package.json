@@ -1,0 +1,29 @@
+{
+  "name": "resful-blog",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mclausaudio/RESTfulBlog.git"
+  },
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^3.2.6",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.12",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mclausaudio/RESTfulBlog/issues"
+  },
+  "homepage": "https://github.com/mclausaudio/RESTfulBlog#readme"
+}
