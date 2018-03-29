@@ -1,0 +1,24 @@
+<% include ./partials/header %>
+
+<div class="ui main text container segment">
+    <div class="ui huge header">
+        <%= blog.title %>
+    </div>
+        <div class="ui top attached">
+            <div class="item">
+                <div class="ui centered rounded image">
+                    <img src="<%=blog.image%>">
+                </div>
+                <div class="content">
+                    <span><%= blog.created.toDateString() %></span>
+                </div>
+                <div class="description">
+                    <!--used a - instead of = below, the - evaluates the html for user to style blog  -->
+                    <%- blog.body %>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<% include ./partials/footer %>
